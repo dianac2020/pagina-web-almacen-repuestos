@@ -1,0 +1,359 @@
+/*Selector Header*/
+.header-sitio{
+    background-image: url(../images/fondo5.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.header-inicio {
+  background-color: #fc7e2f;
+  padding: 1rem 0 3rem 0;
+
+}
+*,*:before *:after{
+  box-sizing: inherit;
+}
+html{
+  font-size: 60%;
+  box-sizing: border-box;
+}
+body{
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  max-width: 100%;
+}
+#logo {
+    width: 40%;
+    height: 40%;
+}
+.encabezado{
+  font-size: 30px;
+  text-align: center;
+}
+/*Start selectores globales*/
+.contenedor{
+  max-width: 150rem;
+  margin: 0 5rem 0 5rem;
+}
+/*End selectores globales*/
+h1{
+  font-size: 3.4rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2.6rem;
+}
+h4{
+  font-size: 2.2rem;
+}
+/*Start utilidades*/
+.seccion{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.fw-300{
+  font-weight: 300;
+}
+.centrar-texto{
+  text-align: center;
+}
+.contenido-centrado p{
+  max-width: 800px;
+}
+
+/*End utilidades*/
+.contenido-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.contenido-header h1{
+  color: orangered;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+  max-width: 80rem;
+  line-height: 2;
+}
+.barra{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+}
+.navegacion a{
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-right: 20px;
+}
+.navegacion a:last-of-type{
+  margin:0;
+}
+.navegacion a:hover{
+  color: brown;
+}
+/*Iconos nosotros*/
+.iconos-nosotros{
+  display: flex;
+  justify-content: space-between;
+}
+.icono{
+  flex-basis: calc(33.3% -1rem);
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.icono img{
+  width: 10rem;
+  height: 10rem;
+}
+.contenedor-anuncio{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+}
+.anuncio{
+  flex:0 0 calc(33.3% - 1rem);
+  border: 1px solid darkgoldenrod;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+.anuncio img {
+  width: 26.3rem;
+  height: 28.4rem;
+}
+.contenido-anuncio{
+  padding: 2rem;
+  text-align: center;
+}
+.contenido-anuncio h3 .contenido-anuncio p{
+  margin: 0;
+}
+.precio{
+  color: rgb(255, 115, 0);
+  font-weight: 900;
+}
+.d-bloc{
+  display: block!important;
+}
+/*Botones*/
+.boton{
+  color: lightgoldenrodyellow;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  display: inline-block;
+  text-align: center;
+  border-radius: 15px;
+}
+.dorado{
+  background-color: #fc7e2f;
+}
+.naranja{
+  background-color: goldenrod;
+}
+.ver{
+  display: flex;
+  justify-content: flex-end;
+}
+.naranja a{
+  margin: 0;
+}
+/*Seccion Contacto*/
+.imagen-contacto{
+  background-image: url(../images/transportation.jpg);
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.contenido-contacto{
+  flex: 1;
+  color: #edf492;
+}
+.contenido-contacto p{
+  font-size: 1.9rem;
+}
+/*Sección inferior*/
+.seccion-inferior{
+  display: flex;
+  justify-content: space-between;
+}
+.seccion-inferior .blog{
+  flex-basis: 40%;
+}
+.seccion-inferior .comentarios{
+  flex-basis: 40%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.entrada-blog{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.entrada-blog :last-of-type{
+  margin-bottom: 0;
+}
+.entrada-blog .imagen{
+  flex-basis: 70%;
+  padding-right: 2rem;
+}
+.entrada-blog .texto-entrada{
+  flex-basis: 60%;
+}
+.entrada-blog a{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+.texto-entrada h4{
+  font-size: 2.3rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+.texto-entrada p{
+  margin: 0;
+  line-height: 2;
+  font-size: 1em;
+  text-align: justify;
+}
+.seccion-inferior .comentarios{
+  flex-basis: calc(100%-2rem);
+}
+.texto-entrada h4::after{
+  margin-top: 1rem;
+  content: "";
+  display: block;
+  width: 30rem;
+  height: 0.5rem;
+  background-color: orangered;
+}
+.texto-entrada span{
+  color: darkgoldenrod;
+}
+.comentario{
+  background-color: #fc7e2f;
+  color: lightgoldenrodyellow;
+  padding: 2rem;
+  font-size: 2.4rem;
+  border-radius: 2rem;
+
+}
+.comentario p{
+  text-align: right;
+}
+.comentario blockquote::before{
+  content: '"';
+
+}
+.contenedor-footer{
+  padding: 3rem 0;
+  display: flex;
+  
+}
+.comentario blockquote{
+  position: relative;
+}
+.site-footer{
+  background-color: #fc7e2f;
+  margin-bottom: 0;
+}
+.copyright{
+  margin:0;
+  color: lightgoldenrodyellow;
+}
+.contenedor-footer{
+  padding: 3rem 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Media Query*/
+/*Para Resoluciones Hasta 480px*/
+@media screen and(max-width:480px){
+
+}
+/*Para Resoluciones Hasta 700px*/
+@media screen and(max-width:700px){
+
+}
+/* Páginas Internas nosotros*/
+.contenido-nosotros{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+}
+.texto-nosotros blockquote{
+      font-weight: 900;
+      margin: rem, 0;
+}
+.texto-nosotros{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+/*Anuncio*/
+.imagen-producto img{     
+  display: block;           /*para centrar una imagen*/
+  margin-right: auto;
+  margin-left: auto;
+}
+.resumen-producto{
+  
+  justify-content:space-between;
+}
+.formu{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  max-width: 50rem;
+}
+/*Blog*/
+.size{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 80rem;
+}
+.size img{
+  width: 40rem;
+  height: 24rem;
+  margin-left: 24rem;
+  border-radius: 2rem;
+}
+/*Entrada*/
+.imgg {
+  background-image: url(../images/chevrolet.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+/*Contáctenos*/
+.imag {
+  width: 200rem;
+  height: 50rem;
+}
+label{
+  display:block;
+}
+.bot{
+  background-color: orangered;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  margin-top: 1.5rem;
+}

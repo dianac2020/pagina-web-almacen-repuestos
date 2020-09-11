@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="CSS/Normalize.css">
+        <link rel="stylesheet" href="CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Auto Ibagué</title>
+        <link rel="icon" href="images/car.png" type="image/png">
+    </head>
+    <body>
+        <header class="header-inicio">
+            <div class="contenedor contenido-header">
+                <div class="barra">
+                    <a href="/">
+                        <img id= "logo" src="icon/logo6.png"  alt="Distribuidora Autoibagué">
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>                
+                </div>
+               </div>
+        </header>
+        <h1 class="fw-300 centrar-texto">Contacto Distribuidora Auto Ibagué</h1>
+        <img class="imag" src="images/contactenos.jpg" alt="Contáctenos">
+        <main class="contenedor seccion contenido-centrado"></main>
+            <h2 class="fw-300 centrar-texto">Ingrese sus datos en el formulario de contacto</h2>
+            <form action="" class="formu">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Digite su Nombre" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Digite su E-mail" required>         
+                    <label for="teléfono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Digite su Teléfono">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" cols="30" rows="10"></textarea> 
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Información de los Productos</legend>
+                <label for="opciones">Vende o Compra</label>
+                <select id="opciones">
+                    <option value="" disabled selected>-Seleccione-</option>
+                    <option value="comprar">Compra</option>
+                    <option value="vender">Vende</option>
+                </select>
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" min="0" max="10">
+            </fieldset>
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Cómo desea ser contactado?</p>
+                <label for="tel">Teléfono</label>
+                <input type="radio" name="contacto" value="telefono" id="tel">
+                <label for="correo">E-mail</label>
+                <input type="radio" name="contacto" value="correo" id="correo">
+                <p>En caso de que haya elegido teléfono, indique la fecha y hora para ser contactado</p>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora">
+            </fieldset>
+            <input type="submit" class="bot" value="Enviar" >
+            </form>
+
+        <footer class="site-footer seccion">
+            <div class="contenedor contenedor-footer">
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+                <p class="copyright">Todos los derechos reservados 2020 &copy;</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>
